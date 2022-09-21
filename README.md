@@ -9,3 +9,11 @@
 - run : `php artisan serve`
 
 - Best of luck 
+
+## Credentials
+- #### Admin
+- email: admin@admin.com
+- password : password
+- #### user
+- email: user@user.com
+- password: password

@@ -19,13 +19,13 @@ class DatabaseSeeder extends Seeder
         \App\Models\Admin::create([
             'name'=>'Admin',
             'Email' => 'admin@admin.com',
-            'password'=>bcrypt('admin123')
+            'password'=>bcrypt('password')
         ]);
 
         \App\Models\User::create([
             'name'=>'User',
             'Email' => 'user@user.com',
-            'password'=>bcrypt('admin123')
+            'password'=>bcrypt('password')
         ]);
 
 
